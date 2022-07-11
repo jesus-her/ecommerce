@@ -8,7 +8,7 @@ body, * {
     box-sizing: border-box;
 }
 
-:root, :root.light {
+:root {
     --primary-color: #edf2f8;
     --secondary-color: #390099;
     --secondary-color_2: #670FF7;
@@ -21,7 +21,7 @@ body, * {
     --navbar-color: rgba(255,255,255, 0.5);
     --box-shadow-color: rgba(0, 0, 0, 0.2)
 }
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     :root {
         --primary-color: #000;
         --secondary-color: #390099;
@@ -35,7 +35,7 @@ body, * {
         --navbar-color: rgba(0,0,0, 0.5);
         --box-shadow-color: rgba(255, 255, 255, 0.1)
     }
-}
+} */
 
 ::-webkit-scrollbar {
     width: 0px;
@@ -325,7 +325,7 @@ justify-content: flex-start;
       -webkit-text-stroke-color: var(--primary-color);
       -webkit-text-fill-color: var(--black-color); */
     color: var(--black-color);
-    font-size: 8.5em;
+    font-size: 9em;
     margin-left: 10px;
     text-transform: uppercase;
     z-index: 1;
@@ -333,11 +333,11 @@ justify-content: flex-start;
 }
 
 .hero-banner-container .hero-banner-image-container {
-    width: 350px;
-    height: 450px;
+    width: 400px;
+    height: 500px;
     position: absolute;
     top: 20%;
-    right: 25%;
+    right: 20%;
     z-index: 0;
     background-color: var(--primary-color);
 }
@@ -1098,9 +1098,9 @@ justify-content: flex-start;
 @media screen and (max-width: 800px) {
     .hero-banner-container .hero-banner-image-container {
         width: 50%;
-        height: 40%;
+        height: 45%;
         left: 25%;
-        top: 25%;
+        top: 30%;
     }
 
     .hero-banner-container button {
@@ -1114,7 +1114,6 @@ justify-content: flex-start;
 
     .banner-desc button {
         width: 100%;
-
     }
 
     .products-heading p {
@@ -1136,20 +1135,20 @@ justify-content: flex-start;
 
     .banner-desc .left h3 {
         font-weight: 900;
-        font-size: 50px;
+        font-size: 40px;
         margin-left: 5px;
     }
 
     .banner-desc .left p {
-        margin: 18px;
+        margin: 16px;
     }
 
     .banner-desc .right h3 {
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .banner-desc .right p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .banner-desc .right .company-desc {
@@ -1166,7 +1165,7 @@ justify-content: flex-start;
     }
 
     .hero-banner-container h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .hero-banner-container h3 {
